@@ -1,0 +1,42 @@
+.box-text-recovery-pass{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-mail-recovery-pass{
+    margin-top: 50px;
+}
+.button-recovery-pass{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#recovery_pass_error{
+    color: red;
+}
+
+.text-new-pass{
+    margin-top: 50px;
+}
+.button-recovery{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#error_repeat_pass{
+    color: red;
+}
+.send_email_recovery{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#message-send-email{
+    text-align: center;
+}
+
+#message-recovery-pass{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
