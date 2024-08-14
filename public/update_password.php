@@ -17,7 +17,7 @@ $response = RfCoreCurl::curl('/api/users/update_password_recovery' , 'POST' , NU
 
 if($response->status){
 
-    $user = get_user_by('login', $email);
+    $user = get_user_by('email', $email);
 
     if ($user) {
         wp_set_password($password, $user->ID);
